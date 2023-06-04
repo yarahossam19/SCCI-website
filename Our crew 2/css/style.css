@@ -1,0 +1,386 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+/*NavBar*/
+nav{
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.13) !important;
+  }
+  .navbar{
+    background-color: rgb(88, 88, 88) !important;
+    text-align: center;
+  }
+  nav .nav-link{
+    color: white !important;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center !important;
+  }
+
+  .nav-link:hover{
+    color: rgba(0, 81, 255, 0.842) !important;
+  }
+  
+  .active{
+    color: rgba(0, 81, 255, 0.842) !important;
+  }
+
+
+  .navbar-brand{
+    font-weight: 800;
+  }
+/*NavBar*/
+
+/*Opening view*/
+.headerr
+{
+    background-image: url(../imgs/scci\ final\(2\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 94vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.wave
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;   
+
+}
+
+.headerr1
+{
+    background-image: url(../imgs/ER.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 94vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.headerr2
+{
+    background-image: url(../imgs/TECNICAL.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 94vh;
+    overflow: hidden;
+    text-align: center;
+}
+/*Opening view*/
+
+
+/*President*/
+.president
+{
+    margin-top: 4%;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.head1
+{
+    color: #0000A8;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 8vh !important;
+}
+
+.pp
+{
+    width: 300px;
+    height: 350px;
+    border-radius: 17px;
+    border: .5px solid black;
+}
+
+li{
+    padding-bottom: 10px;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
+}
+
+.jobdesc
+{
+    margin-top: 13%;
+    width: 450px;
+    border-style: solid;
+    border-radius: 17px;
+    border-top: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-color: #d11717e3;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-left: 10vh;
+    height: fit-content;
+}
+.destitle{
+    padding:10px 0px 10px 20px !important;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 100%;
+
+}
+#tdes{
+    margin-top:-5px !important;
+}
+
+.fade-up
+{
+    opacity: 0;
+    transform: translateY(10%);
+    transition: translateY(10%);
+    transition: opacity 1s ease-in, transform 700ms ease-in , transition 700ms ease-in;
+}
+.fade-up.appear
+{
+    opacity: 1;
+    transform: translateY(0);
+    transition: translateY(0);
+}
+/*President*/
+
+/*Heads*/
+.hcard
+{
+    width: 300px;
+    height: 350px;
+    border-radius: 17px;
+    border: .5px solid black;
+}
+
+.heads
+{
+    margin-top: 6%;
+    margin-right: 60px;
+    margin-bottom: 10vh;
+}
+
+.heads .col-sm-6
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.img-top
+{
+    width: 150px;
+    height: 210px;
+    border-radius: 17px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+h4
+{
+    color: #d11717e3;
+    font-size: 40px !important;
+    width: fit-content !important;
+    height: fit-content !important;
+    padding-top: .5em;
+}
+
+h3
+{
+    font-size: 40px !important;
+    width: 320px;
+    text-align: center !important;
+}
+
+.highboard
+{
+    text-align: center !important;
+    width: 300px;
+}
+
+.hname
+{
+    color: #d11717e3;
+}
+
+.position
+{
+    color: #0000A8;
+}
+
+.tech
+{
+    width: 1000px;
+    margin-top: 10%;
+    height: fit-content;
+}
+
+.er
+{
+    width: 1000px;
+    margin-top: 5%;
+    height: fit-content;
+}
+.m
+{
+    margin-left: .4em !important;
+}
+
+.s
+{
+    margin-left: 10vh !important;
+}
+@media (min-width: 1200px) {
+    .row1
+    {
+        margin-bottom: 100px;
+    }
+
+
+}
+
+@media (max-width: 1100px) {    
+    .row1 .col-sm-6
+    {
+        margin-bottom: 200px;
+        padding-left: 20%;
+    }
+
+    .row2 .col-sm-6
+    {
+        margin-bottom: 200px;
+        padding-left: 20%;
+    }
+    
+    .jobdesc
+    {
+        height: fit-content;
+        width: 300px;
+        margin-right: 100%;
+    }
+    .head1
+    {
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    .hb
+    {
+        padding-bottom: 10%;
+        /* margin-right: 30px; */
+        padding-left: 5vh;
+        width: fit-content;
+    }
+
+    .pn
+    {
+        padding-left: 18%;
+    }
+
+    .pp
+    {
+       margin-left: 20%;
+    }
+
+    .er
+    {
+        height: 55vh;
+    }
+
+    .headerr
+    {
+        background-image: url(../imgs/scci\ final\(2\).png);
+        background-repeat: no-repeat;
+        background-size: 100% 60%;
+        position: relative;
+        background-attachment: fixed;
+        z-index: -1;
+        width: 100%;
+        height: 60vh;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .headerr1
+    {
+        background-image: url(../imgs/ER.png);
+        background-repeat: no-repeat;
+        background-size: 100% 60%;
+        position: relative;
+        background-attachment: fixed;
+        z-index: -1;
+        width: 100%;
+        height: 60vh;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .headerr2
+    {
+        background-image: url(../imgs/TECNICAL.png);
+        background-repeat: no-repeat;
+        background-size: 100% 60%;
+        position: relative;
+        background-attachment: fixed;
+        z-index: -1;
+        width: 100%;
+        height: 60vh;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+}
+
+.fade-in
+{
+    opacity: 0;
+    transition: opacity 1.2s ease-in;
+}
+.fade-in.appear
+{
+    opacity: 1;
+}
+ 
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 350px;
+    perspective: 1000px; 
+  }
+  
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+/*Heads*/

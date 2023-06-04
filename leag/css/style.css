@@ -1,0 +1,113 @@
+*{
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: capitalize !important;
+}
+.aboutl{
+    text-align: center;
+    box-shadow: 0 0 10px white;
+    padding: 50px 0 50px 0px;
+    border-radius: 20px;
+    transition: 0.5s ease-out;
+    color: white;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    background:linear-gradient(rgba(78, 78, 78, 0.596),rgba(0, 0, 0, 0.6)), url(https://photobest1.com/wp-content/uploads/2018/12/Champions-League-background-wallpaper-hd-09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-position: center;
+}
+
+table{
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /*margin-left: 10px;*/
+    padding: 1px;
+    transition: 0.5s ease-out;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px white;
+    max-width: 350px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.6)),url(https://photobest1.com/wp-content/uploads/2018/12/Champions-League-background-wallpaper-hd-09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* background-attachment: fixed;*/
+    background-position: center;
+}
+
+/* .g1{
+    max-width: 50px !important;
+}
+
+.g2{
+    max-width: 50px !important;
+} */
+
+
+table:hover{
+ transform: scale(1.1);
+ transition: ease-out 0.5s;
+}
+.up:hover{
+   background-color: green;
+}
+.loss:hover{
+    background-color: red;
+    border-radius: 50px;
+}
+th{
+    padding: 17px;
+}
+td{
+    padding: 17px;
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+.col-sm-12{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.semifinal h1{
+    padding-left: 30px !important;
+}
+/* .div-kbeer{
+    margin-left: 15px;
+} */
+.btn{
+    width: 100% !important;
+    height: 60px !important;
+    padding-top:10px; 
+    font-size: 25px !important ;
+    font-weight: bold !important ;
+    margin-top: 15px;
+    background-color: black;
+}
+.disp{
+    display: flex !important;
+    justify-content: space-between;
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+    list-style: none;
+}
+
+
+.semifinal{
+    width: 100%;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    font-size: 15px;
+    
+}
+
+.col-sm-4 img{
+    border-radius: 20px;
+}
